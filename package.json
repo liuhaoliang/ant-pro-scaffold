@@ -1,0 +1,44 @@
+{
+  "name": "ant-demo",
+  "version": "2.1.1",
+  "description": "an demo project",
+  "private": true,
+  "scripts": {
+    "start": "cross-env APP_TYPE=site umi dev",
+    "start:no-mock": "cross-env MOCK=none umi dev",
+    "build": "umi build"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.1.2",
+    "classnames": "^2.2.6",
+    "enquire-js": "^0.2.1",
+    "js-cookie": "^2.2.0",
+    "lodash": "^4.17.10",
+    "lodash-decorators": "^6.0.0",
+    "memoize-one": "^4.0.0",
+    "moment": "^2.22.2",
+    "omit.js": "^1.0.0",
+    "path-to-regexp": "^2.4.0",
+    "qs": "^6.5.2",
+    "rc-animate": "^2.4.4",
+    "react-container-query": "^0.11.0",
+    "react-copy-to-clipboard": "^5.0.1",
+    "react-document-title": "^2.0.3",
+    "react-router-dom": "^4.3.1"
+  },
+  "devDependencies": {
+    "antd-pro-merge-less": "0.0.9",
+    "antd-theme-webpack-plugin": "^1.1.8",
+    "cross-env": "^5.1.1",
+    "umi": "^2.2.1",
+    "umi-plugin-react": "^1.2.0"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 10"
+  ]
+}
